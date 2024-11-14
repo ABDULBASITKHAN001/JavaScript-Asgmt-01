@@ -24,15 +24,15 @@ var submit = alert("!THANKS! TO GIVE US YOUR INFORMATION !   NOW YOU CAN CHECK Y
 alert("Submission Form" + " " + "Your Name is :" + " " + full_name + " " + "Your Age is :" + " " + age + " " +  "Your Mobile Number is :" + " " + number + " " );
 
 
-if(age <= 17){
-    alert("Sorry You  Are Not Eligible For This Form")
+if(age < 16){
+    alert("Sorry Your Age Is Too Low For  This Form  ")
 }
 if(gender == "male"){
     alert("You Are Eligible")
 }else{
     alert("Only For Males" )
 }
-if(number .length == 11){
+if(number .length == 12){
     alert("Your Number Is Accepted")
 }else{
     alert("Please Enter Valid Number")
